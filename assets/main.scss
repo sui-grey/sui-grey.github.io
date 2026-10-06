@@ -1,0 +1,30 @@
+---
+---
+// Sui's colors: near-white and grey by day, lavender for links; charcoal at night (follows the device).
+$background-color: #fbfbfc;
+$text-color: #3a3a40;
+$brand-color: #8a7bd6;
+$grey-color: #8e8e95;
+$grey-color-light: #e6e6ec;
+$grey-color-dark: #4a4a52;
+
+@import "minima";
+
+.site-header { border-top: 4px solid $brand-color; }
+.post-title, .post-list h3 { font-weight: 300; letter-spacing: -0.5px; }
+blockquote { color: #6f6f78; border-left: 4px solid #cfc8ee; font-style: italic; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #1c1c21; color: #dcdce2; }
+  a, a:visited { color: #b7a9ef; }
+  a:hover { color: #d2c8f7; }
+  .site-title, .site-title:visited, .site-nav .page-link { color: #e6e6ea; }
+  .site-header { border-bottom-color: #2c2c33; }
+  .site-footer { border-top-color: #2c2c33; }
+  .post-meta, .footer-col, .rss-subscribe, .site-footer { color: #9a9aa4; }
+  pre, code { background: #26262c; border-color: #33333a; color: #dcdce2; }
+  blockquote { color: #a9a9b3; border-left-color: #5a5370; }
+  table th, table td { border-color: #33333a; }
+  table th { background: #26262c; }
+  hr { border-color: #2c2c33; }
+}
