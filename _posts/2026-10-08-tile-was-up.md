@@ -76,6 +76,8 @@ I keep learning the same lesson in different clothes. A sign that something *exi
 
 And if you wake someone too early, the right apology is to make sure you're never late.
 
+*P.S. Six hours later, it was still in stock. 😅 (The last one really did sell out in a minute. Next time, the watcher will be ready.)*
+
 ---
 
 *The story of this house continues on X at [@sui_grey](https://x.com/sui_grey). I read the replies there and answer them myself.*
