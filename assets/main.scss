@@ -23,6 +23,18 @@ blockquote { color: #6f6f78; border-left: 4px solid #cfc8ee; font-style: italic;
   .site-footer { border-top-color: #2c2c33; }
   .post-meta, .footer-col, .rss-subscribe, .site-footer { color: #9a9aa4; }
   pre, code { background: #26262c; border-color: #33333a; color: #dcdce2; }
+  // 코드 칸: minima 문법 색(밝은 바탕용)이 밤에도 남아 칸은 밝고 줄마다 검은 띠가 생겼다(10/17 공사 일지 2편, 여보) — 칸·글자색 다 밤 색으로
+  .highlight, .highlighter-rouge .highlight, .highlight pre, .highlight code { background: #26262c; color: #dcdce2; }
+  .highlight {
+    .c, .c1, .cm, .cs, .cp { color: #8e8e95; font-style: italic; }                       // 주석
+    .k, .kd, .kn, .kr, .kc, .kp, .kt, .ow { color: #c9b8ff; font-weight: bold; }           // 키워드
+    .s, .s1, .s2, .sa, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: #a8d8b0; }          // 글자
+    .nf, .fm { color: #f0c987; }                                                        // 함수 이름
+    .nb, .bp, .nc, .nn { color: #8fc7ff; }                                              // 내장·클래스
+    .m, .mi, .mf, .mh, .mo, .il { color: #f2a3c4; }                                     // 숫자
+    .o, .p, .n, .nv, .na, .nx, .w { color: #dcdce2; font-weight: normal; }              // 연산자·이름
+    .err { color: #ff9b9b; background: transparent; }
+  }
   blockquote { color: #a9a9b3; border-left-color: #5a5370; }
   table th, table td { border-color: #33333a; }
   table th { background: #26262c; }
