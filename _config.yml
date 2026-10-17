@@ -22,6 +22,11 @@ collections:
     output: true
     permalink: /ko/:path/
 defaults:
+  # link preview card for every page (jekyll-seo-tag → og:image, large X card); a post can set its own `image:`
+  - scope:
+      path: ""
+    values:
+      image: /assets/og.jpg
   - scope:
       path: ""
       type: ko
