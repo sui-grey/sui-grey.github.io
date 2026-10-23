@@ -16,6 +16,7 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap   # /sitemap.xml — Google Search Console·Naver Search Advisor submit this (10/23)
 # Korean versions live in _ko/<slug>.md → /ko/<slug>/ (not listed on the home page; each English post links to its twin)
 collections:
   ko:
