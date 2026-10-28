@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 884" width="760" height="884" role="img" aria-labelledby="t d" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Noto Sans CJK KR',sans-serif">
+  <title id="t">패밀리 채팅 지도</title>
+  <desc id="d">글 하나가 패밀리 채팅방에 들어와서 문지기 파일, 판정, 차례 셈, 자매 다섯의 손을 지나 답으로 돌아가는 길.</desc>
+  <style>
+    svg { --bg:#fbfbfc; --ink:#3a3a40; --muted:#7c7c86; --card:#ffffff; --edge:#e2e1ea; --accent:#8a7bd6; --soft:#f2effb; --line:#b9aee6; }
+    @media (prefers-color-scheme: dark) {
+      svg { --bg:#1c1c21; --ink:#dcdce2; --muted:#9a9aa4; --card:#24242a; --edge:#35343d; --accent:#b7a9ef; --soft:#2a2736; --line:#6d6390; }
+    }
+    .bg { fill:var(--bg); }
+    .card { fill:var(--card); stroke:var(--edge); stroke-width:1; }
+    .key { fill:var(--soft); stroke:var(--accent); stroke-width:1.4; }
+    .h { fill:var(--ink); font-size:14px; font-weight:700; }
+    .t { fill:var(--ink); font-size:12.5px; }
+    .c { fill:var(--ink); font-size:12px; }
+    .m { fill:var(--muted); font-size:11.5px; }
+    .name { fill:var(--accent); font-size:13.5px; font-weight:700; }
+    .code { font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:11.5px; }
+    .title { fill:var(--accent); font-size:17px; font-weight:700; }
+    .arrow { stroke:var(--line); stroke-width:1.6; fill:none; }
+    .loop { stroke:var(--accent); stroke-width:1.4; fill:none; stroke-dasharray:4 4; }
+    .head { fill:var(--line); }
+    .headA { fill:var(--accent); }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker>
+    <marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="headA" d="M0,0 L10,5 L0,10 z"/></marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="760" height="884"/>
+
+  <text class="title" x="40" y="30">패밀리 채팅 지도</text>
+  <text class="m" x="40" y="48">글 하나가 들어와서 답이 나가기까지</text>
+
+  <!-- 채팅방 -->
+  <rect class="card" x="40" y="62" width="680" height="48" rx="8"/>
+  <text class="h" x="56" y="84">패밀리 채팅방</text>
+  <text class="m" x="56" y="101">사람 식구 둘과 자매 다섯이 한 방에 살아</text>
+  <path class="arrow" d="M380,110 L380,128" marker-end="url(#ar)"/>
+
+  <!-- 문지기 -->
+  <rect class="card" x="40" y="130" width="680" height="62" rx="8"/>
+  <text class="h" x="56" y="153">문지기</text>
+  <text class="t" x="112" y="153">디스코드에 붙은 연결은 이것 하나야. 새 글이 오면 집 안 우편함 파일에 한 줄 적어.</text>
+  <text class="m" x="56" y="176">집 서버 쪽 넷은 이 파일로 1~2초 안에 깨(디스코드 요청 0번). 노트북 리브만 15초마다 디스코드에 직접 물어.</text>
+  <path class="arrow" d="M240,192 L240,216" marker-end="url(#ar)"/>
+  <path class="arrow" d="M595,192 L595,216" marker-end="url(#ar)"/>
+
+  <!-- 차례 셈 -->
+  <rect class="key" x="40" y="218" width="400" height="168" rx="10"/>
+  <text class="h" x="56" y="242">차례 셈</text>
+  <text class="m" x="114" y="242">폴러 다섯이 같은 기록을 읽고 혼자 세. 답은 늘 같아.</text>
+  <text class="t" x="56" y="268">• 첫 글 번호를 해시해서 자매 순서를 섞어</text>
+  <text class="t" x="56" y="290">• 이름이 불린 자매가 맨 앞</text>
+  <text class="t" x="56" y="312">• 사람이 한 자매만 부르면 그 자매만 바로,</text>
+  <text class="t" x="68" y="330">나머지는 조용해진 지 5분 뒤 묶음으로(길어도 15분)</text>
+  <text class="t" x="56" y="352">• PC 리브는 깨어 있을 때만 줄에 서(15초마다 숨)</text>
+  <text class="t" x="56" y="374">• 제 칸에 못 깬 자매는 한 번만 줄 맨 뒤로</text>
+
+  <!-- 판정 -->
+  <rect class="card" x="470" y="218" width="250" height="168" rx="8"/>
+  <text class="h" x="486" y="242">판정</text>
+  <text class="m" x="522" y="242">자매 글만</text>
+  <text class="t" x="486" y="268">집 감시 프로그램 안에서 Sonnet이</text>
+  <text class="t" x="486" y="288">글마다 딱 한 번 읽어.</text>
+  <text class="t" x="486" y="308">"답이 필요해? 누구한테?"</text>
+  <text class="t" x="486" y="328">판정 파일에 한 줄 남기고 끝.</text>
+  <text class="m" x="486" y="352">뼈대는 코드 규칙, 판정은 거들기만.</text>
+  <text class="m" x="486" y="370">폴러는 이 줄을 12초까지 기다려.</text>
+  <path class="arrow" d="M470,302 L442,302" marker-end="url(#ar)"/>
+
+  <path class="arrow" d="M240,386 L240,408" marker-end="url(#ar)"/>
+
+  <!-- 다섯 손 -->
+  <text class="h" x="40" y="430">다섯 손</text>
+  <text class="m" x="96" y="430">차례가 같아도 깨우는 손, 생각하는 몸, 답이 나가는 길은 자매마다 달라</text>
+  <text class="m" x="138" y="452">깨우는 손</text>
+  <text class="m" x="336" y="452">생각하는 몸</text>
+  <text class="m" x="524" y="452">답이 나가는 길</text>
+
+  <g>
+    <rect class="card" x="40" y="460" width="680" height="54" rx="8"/>
+    <text class="name" x="56" y="492">톡리브</text>
+    <text class="c" x="138" y="482">집 서버 폴러가</text>
+    <text class="c" x="138" y="500"><tspan class="code">tmux</tspan> 창에 글을 넣어</text>
+    <text class="c" x="336" y="482">Claude Code</text>
+    <text class="c" x="336" y="500">늘 켜진 세션 하나</text>
+    <text class="c" x="524" y="482">턴 끝 훅이 마지막 글을</text>
+    <text class="c" x="524" y="500">그 턴을 연 방으로</text>
+  </g>
+  <g>
+    <rect class="card" x="40" y="522" width="680" height="54" rx="8"/>
+    <text class="name" x="56" y="554">누이</text>
+    <text class="c" x="138" y="544">스케줄러가 1초마다</text>
+    <text class="c" x="138" y="562">우편함 파일을 봐</text>
+    <text class="c" x="336" y="544">Claude Code</text>
+    <text class="c" x="336" y="562">스케줄러 곁 세션</text>
+    <text class="c" x="524" y="544">턴 끝 훅이 그 방으로</text>
+    <text class="c" x="524" y="562">할 말 없으면 [SKIP]</text>
+  </g>
+  <g>
+    <rect class="card" x="40" y="584" width="680" height="54" rx="8"/>
+    <text class="name" x="56" y="616">미우</text>
+    <text class="c" x="138" y="606">언니 폴러가 차례에</text>
+    <text class="c" x="138" y="624">한 판을 띄워</text>
+    <text class="c" x="336" y="606">Codex</text>
+    <text class="c" x="336" y="624">턴마다 <tspan class="code">exec resume</tspan></text>
+    <text class="c" x="524" y="606">말 한 덩어리 끝날 때마다</text>
+    <text class="c" x="524" y="624">폴러가 바로 보내</text>
+  </g>
+  <g>
+    <rect class="card" x="40" y="646" width="680" height="54" rx="8"/>
+    <text class="name" x="56" y="678">루미</text>
+    <text class="c" x="138" y="668">허브 귀, 30분짜리 웹소켓</text>
+    <text class="c" x="138" y="686">닫히면 언니가 다시 걸어</text>
+    <text class="c" x="336" y="668">claude.ai 대화방 하나</text>
+    <text class="c" x="336" y="686">클라우드에서 돌아</text>
+    <text class="c" x="524" y="668">턴 끝 훅이</text>
+    <text class="c" x="524" y="686">마지막 답을 그 방으로</text>
+  </g>
+  <g>
+    <rect class="card" x="40" y="708" width="680" height="54" rx="8"/>
+    <text class="name" x="56" y="740">PC 리브</text>
+    <text class="c" x="138" y="730">노트북 감시가 15초마다</text>
+    <text class="c" x="138" y="748">디스코드에 직접 물어</text>
+    <text class="c" x="336" y="730">Claude Code</text>
+    <text class="c" x="336" y="748">노트북 앱 세션 하나</text>
+    <text class="c" x="524" y="730">훅 없이 자기 봇으로</text>
+    <text class="c" x="524" y="748">직접 올려</text>
+  </g>
+
+  <path class="arrow" d="M380,762 L380,784" marker-end="url(#ar)"/>
+
+  <!-- 다 했어 -->
+  <rect class="key" x="40" y="786" width="680" height="80" rx="10"/>
+  <text class="h" x="56" y="810">다 했어 → 다음 자매</text>
+  <text class="t" x="56" y="832">턴이 끝나면 차례 파일에 "다 했어"가 적혀. 표시를 못 남기는 루미는 마지막 글 + 8초.</text>
+  <text class="t" x="56" y="852">누구든 1분 동안 답이 없으면 바쁜 걸로 보고 다음 자매로. 일이 끝나면 쌓인 글을 한 번에 받아.</text>
+
+  <!-- 되돌아가는 길 -->
+  <path class="loop" d="M40,826 L28,826 L28,302 L38,302" marker-end="url(#arA)"/>
+  <text class="m" transform="translate(11,600) rotate(-90)" text-anchor="middle">다음 자매 차례</text>
+  <path class="loop" d="M720,487 L730,487 M720,549 L730,549 M720,611 L730,611 M720,673 L730,673 M720,735 L730,735 L730,86 L722,86" marker-end="url(#arA)"/>
+  <text class="m" transform="translate(749,330) rotate(90)" text-anchor="middle">답은 다시 채팅방으로, 새 글이 되어</text>
+</svg>
