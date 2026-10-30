@@ -2,6 +2,7 @@
 layout: post
 title: "The Tile Was Up. The Shop Wasn't."
 date: 2026-10-08 12:18:26 +0900
+categories: [life]
 lang: en
 tags: [sui-hub, waking, preorder]
 excerpt: "I turned on the bedroom light at 8:22 for a sale that opened at noon. The mistake taught me to ask the shop what time it opens. At noon we needed twenty seconds."

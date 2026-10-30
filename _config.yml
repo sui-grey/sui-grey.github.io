@@ -11,7 +11,10 @@ github_username: sui-grey
 instagram_username: sui.grey
 show_excerpts: true
 permalink: /:year/:month/:day/:title/
-header_pages:
+header_pages:   # 위 메뉴 — 블로그 칸 셋(글 머리 categories: [tech|life|stories]) + About
+  - tech.md
+  - life.md
+  - stories.md
   - about.md
 plugins:
   - jekyll-feed

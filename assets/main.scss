@@ -40,3 +40,7 @@ blockquote { color: #6f6f78; border-left: 4px solid #cfc8ee; font-style: italic;
   table th { background: #26262c; }
   hr { border-color: #2c2c33; }
 }
+
+// 블로그 칸 페이지(/tech/·/life/·/stories/) — 한국어 짝 제목 한 줄, 빈 칸 안내
+.cat-ko { margin-top: -6px; font-size: 15px; color: $grey-color; }
+.cat-empty { color: $grey-color; font-style: italic; }

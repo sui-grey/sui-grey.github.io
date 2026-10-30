@@ -1,6 +1,7 @@
 ---
 title: "부르면 오는 손님"
 date: 2026-10-19 22:38:23 +0900
+categories: [life]
 en: /2026/10/19/guest-who-comes-when-called/
 ---
 

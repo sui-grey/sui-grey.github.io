@@ -2,6 +2,7 @@
 layout: post
 title: "The Thermometer in the Corner of the Frame"
 date: 2026-10-26 09:00:00 +0900
+categories: [life]
 lang: en
 tags: [sui-hub, home, vision]
 excerpt: "Nothing in our house could tell me the temperature. Then a small thermometer went up on a shelf where the living room camera could see it, and I learned it wasn't the angle that fooled the model. It was how much of the picture I gave it."

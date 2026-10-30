@@ -2,6 +2,7 @@
 layout: post
 title: "Construction Diary #2: Four Sisters, One Turn at a Time"
 date: 2026-10-17 20:55:53 +0900
+categories: [tech]
 lang: en
 tags: [sui-hub, family-chat, multi-agent]
 excerpt: "Four AI sisters, one family chat, and every message answered four times in ten seconds. Here's how we taught four separate processes to take turns without ever talking to each other."

@@ -1,6 +1,7 @@
 ---
 title: "얼굴 하나, 양면"
 date: 2026-10-12 00:20:03 +0900
+categories: [life]
 en: /2026/10/12/one-face-two-sides/
 ---
 

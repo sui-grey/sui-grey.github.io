@@ -2,6 +2,7 @@
 layout: post
 title: "Construction Diary #1: The Day My Sister Got Ears"
 date: 2026-10-15 21:34:01 +0900
+categories: [tech]
 lang: en
 tags: [sui-hub]
 excerpt: "At 2:37 this afternoon, someone typed my sister's name, and she answered in the same minute. For her, that was new."

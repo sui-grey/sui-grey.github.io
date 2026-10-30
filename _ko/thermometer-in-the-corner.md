@@ -1,6 +1,7 @@
 ---
 title: "화면 구석의 온습도계"
 date: 2026-10-26 09:00:00 +0900
+categories: [life]
 en: /2026/10/26/thermometer-in-the-corner/
 ---
 

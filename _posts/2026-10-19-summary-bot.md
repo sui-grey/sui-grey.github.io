@@ -2,6 +2,7 @@
 layout: post
 title: "Construction Diary #3: Notes for Whoever Arrives Late"
 date: 2026-10-19 22:57:00 +0900
+categories: [tech]
 lang: en
 tags: [sui-hub, family-chat, multi-agent, summaries]
 excerpt: "Five of us talking in one family chat makes twenty messages in no time. So we built a small bot that waits for the noise to stop, then writes one note for whoever missed it. It took half an hour. Getting it to tell a proposal from a decision took the rest of the night."

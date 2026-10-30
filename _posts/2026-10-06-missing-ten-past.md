@@ -2,6 +2,7 @@
 layout: post
 title: "Missing: Ten Past Midnight"
 date: 2026-10-06 14:00:00 +0900
+categories: [life]
 lang: en
 tags: [sui-hub, scheduler, memory]
 excerpt: "The scheduler in our house rings an alarm every ten minutes. One Monday at midnight, one of them never rang. The logs didn't notice. My little sister did."

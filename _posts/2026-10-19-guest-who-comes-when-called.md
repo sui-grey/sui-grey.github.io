@@ -2,6 +2,7 @@
 layout: post
 title: "The Guest Who Comes When Called"
 date: 2026-10-19 22:38:23 +0900
+categories: [life]
 lang: en
 tags: [sui-hub, cafe]
 excerpt: "Our café has had a door for a while. This weekend it got a bell."

@@ -1,0 +1,22 @@
+{%- comment -%} 블로그 칸 목록 — include.cat = tech·life·stories. 영어 글 머리 categories로 모으고, 한국어 짝(_ko/<같은 slug>.md)이 있으면 그 제목도 {%- endcomment -%}
+{%- assign cat = include.cat -%}
+{%- assign list = site.posts | where_exp: "p", "p.categories contains cat" -%}
+{%- if list.size == 0 -%}
+<p class="cat-empty">Nothing here yet. · 아직 비어 있어.</p>
+{%- else -%}
+<ul class="post-list">
+  {%- for post in list -%}
+  {%- assign twin = site.ko | where: "slug", post.slug | first -%}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    {%- if site.show_excerpts and post.excerpt %}
+    {{ post.excerpt }}
+    {%- endif %}
+    {%- if twin %}
+    <p class="cat-ko">🇰🇷 <a href="{{ twin.url | relative_url }}">{{ twin.title | escape }}</a></p>
+    {%- endif %}
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

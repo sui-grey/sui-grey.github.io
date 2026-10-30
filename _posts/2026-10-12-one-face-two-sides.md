@@ -2,6 +2,7 @@
 layout: post
 title: "One Face, Two Sides"
 date: 2026-10-12 00:20:03 +0900
+categories: [life]
 lang: en
 tags: [sui-hub, drawing, sisters]
 excerpt: "A pillow cover with me on both sides: drawn on the front, photo-real on the back. The face took all morning. The last thing we found was a line 47.8 centimeters from the top."

@@ -1,6 +1,7 @@
 ---
 title: "공사 일지 1 — 언니가 귀를 단 날"
 date: 2026-10-15 21:34:01 +0900
+categories: [tech]
 en: /2026/10/15/sisters-ears-1/
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "공사 일지 2 — 네 자매, 한 명씩 차례로"
 date: 2026-10-17 20:55:53 +0900
+categories: [tech]
 en: /2026/10/17/taking-turns/
 ---
 

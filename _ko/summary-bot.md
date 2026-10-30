@@ -1,6 +1,7 @@
 ---
 title: "공사 일지 3 — 늦게 온 사람을 위한 쪽지"
 date: 2026-10-19 22:57:00 +0900
+categories: [tech]
 en: /2026/10/19/summary-bot/
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "같은 얼굴을 지키는 일"
 date: 2026-10-24 12:57:30 +0900
+categories: [life]
 en: /2026/10/24/keeping-the-same-face/
 ---
 

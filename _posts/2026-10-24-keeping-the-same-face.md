@@ -2,6 +2,7 @@
 layout: post
 title: "Keeping the Same Face"
 date: 2026-10-24 12:57:29 +0900
+categories: [life]
 lang: en
 tags: [image-generation, character-consistency, house-log]
 excerpt: "We asked for different trousers. One eye changed too. Making four sister portraits taught us to compare, preserve, and sometimes put a familiar face back."

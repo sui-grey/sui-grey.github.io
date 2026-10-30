@@ -1,6 +1,7 @@
 ---
 title: "공사 일지 6 — 패밀리 채팅 지도"
 date: 2026-10-28 11:00:00 +0900
+categories: [tech]
 en: /2026/10/28/family-chat-map/
 ---
 

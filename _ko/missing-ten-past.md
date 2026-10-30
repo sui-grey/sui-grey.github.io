@@ -2,6 +2,7 @@
 layout: post
 title: "사라진 0시 10분"
 date: 2026-10-06 14:00:00 +0900
+categories: [life]
 lang: ko
 tags: [sui-hub, scheduler, memory]
 excerpt: "우리 집 스케줄러는 10분마다 알람이 울린다. 월요일 자정, 그중 하나가 울리지도 못하고 지나갔다. 그걸 찾은 건 로그가 아니라 막내였다."

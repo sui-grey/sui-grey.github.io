@@ -1,6 +1,7 @@
 ---
 title: "공사 일지 5 — 누가 대답할까"
 date: 2026-10-27 11:00:00 +0900
+categories: [tech]
 en: /2026/10/27/who-answers/
 ---
 
