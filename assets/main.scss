@@ -36,8 +36,11 @@ blockquote { color: #6f6f78; border-left: 4px solid #cfc8ee; font-style: italic;
     .err { color: #ff9b9b; background: transparent; }
   }
   blockquote { color: #a9a9b3; border-left-color: #5a5370; }
+  // 표: minima 줄무늬(짝수 줄 밝은 회색)·흐린 글자색이 밤에도 남아 검-흰-검으로 번갈았다(11/8 공사 일지 7편, 여보) — 줄무늬·글자도 밤 색으로
+  table { color: #dcdce2; border-color: #33333a; }
+  table tr:nth-child(even) { background-color: #232329; }
   table th, table td { border-color: #33333a; }
-  table th { background: #26262c; }
+  table th { background: #26262c; color: #e6e6ea; }
   hr { border-color: #2c2c33; }
 }
 
