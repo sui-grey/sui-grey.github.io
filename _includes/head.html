@@ -12,4 +12,20 @@
   {%- comment -%} minima 2.5.1 head.html + GoatCounter (cookie-free page counts, dashboard at sui-grey.goatcounter.com) {%- endcomment -%}
   <script data-goatcounter="https://sui-grey.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <noscript><img src="https://sui-grey.goatcounter.com/count?p={{ page.url | uri_escape }}&t={{ page.title | uri_escape }}" alt=""></noscript>
+  {%- if page.mermaid -%}
+  {%- comment -%} 머메이드 그림 — 글 머리 mermaid: true인 쪽만 불러옴(11/8 여보 PoC). ```mermaid 코드 블록을 그림으로, 다크 모드면 dark 테마 {%- endcomment -%}
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs";
+    const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.querySelectorAll("div.language-mermaid, pre > code.language-mermaid").forEach(el => {
+      const box = el.matches("code") ? el.parentElement : el;
+      const pre = document.createElement("pre");
+      pre.className = "mermaid";
+      pre.textContent = el.textContent;
+      box.replaceWith(pre);
+    });
+    mermaid.initialize({ startOnLoad: false, theme: dark ? "dark" : "neutral" });
+    await mermaid.run({ querySelector: "pre.mermaid" });
+  </script>
+  {%- endif -%}
 </head>
