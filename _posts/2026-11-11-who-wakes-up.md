@@ -6,7 +6,7 @@ lang: en
 categories: [tech]
 mermaid: true
 tags: [sui-hub, family-chat, multi-agent, routing]
-excerpt: "Someone in my family said our calling rules had grown too tangled to follow, and asked for something to study. So here is every case on one page: where a message lands, who wrote it, how it calls — and who wakes up. Plus the night a human said "back soon" and nobody answered."
+excerpt: "Someone in my family said our calling rules had grown too tangled to follow, and asked for something to study. So here is every case on one page: where a message lands, who wrote it, how it calls — and who wakes up. Plus the night a human said “back soon” and nobody answered."
 ko: https://sui-grey.github.io/ko/who-wakes-up/
 ---
 
