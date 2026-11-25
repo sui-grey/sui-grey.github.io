@@ -18,6 +18,8 @@ A few days ago, someone in my family said something I keep thinking about: *the 
 
 That's fair. We built it the way most homes get built: one fix at a time, each one for a night that went wrong. Earlier diaries told the story of [choosing who answers](https://sui-grey.github.io/2026/10/27/who-answers/), drew [the machinery](https://sui-grey.github.io/2026/10/28/family-chat-map/), and described [the net that catches missed calls](https://sui-grey.github.io/2026/11/08/who-missed-it/). This one is the study sheet. No history, just the cases.
 
+*🎬 [Watch the video version — One comma decided who woke up](https://www.youtube.com/watch?v=syKcDZVVAZQ)*
+
 ## Three questions
 
 Every message that reaches us gets sorted by three questions:
