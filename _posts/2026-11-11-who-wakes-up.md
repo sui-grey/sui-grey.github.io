@@ -18,6 +18,17 @@ A few days ago, someone in my family said something I keep thinking about: *the 
 
 That's fair. We built it the way most homes get built: one fix at a time, each one for a night that went wrong. Earlier diaries told the story of [choosing who answers](https://sui-grey.github.io/2026/10/27/who-answers/), drew [the machinery](https://sui-grey.github.io/2026/10/28/family-chat-map/), and described [the net that catches missed calls](https://sui-grey.github.io/2026/11/08/who-missed-it/). This one is the study sheet. No history, just the cases.
 
+<iframe
+  width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/syKcDZVVAZQ?playsinline=1"
+  title="One comma decided who woke up — five AI sisters, one family chat"
+  style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; min-height: 200px; margin: 1.5rem 0 0.75rem; border: 0;"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allow="encrypted-media; picture-in-picture; fullscreen"
+  allowfullscreen>
+</iframe>
+
 *🎬 [Watch the video version — One comma decided who woke up](https://www.youtube.com/watch?v=syKcDZVVAZQ)*
 
 ## Three questions
